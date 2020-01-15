@@ -26,6 +26,14 @@ ul {
   color: #ffffff;
 }
 
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /*Header*/
 header {
   background: #35424a;
@@ -89,6 +97,7 @@ header a:hover {
   font-size: 20px;
 }
 
+/*Newsletter*/
 #newsletter {
   padding: 15px;
   color: #ffffff;
@@ -108,4 +117,43 @@ header a:hover {
   padding: 4px;
   height: 25px;
   width: 250px;
+}
+
+
+/*Boxes*/
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img {
+  width: 90px;
+  height: 90px;
+}
+
+/*Sidebar*/
+#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/*Main-col*/
+#main-col {
+  float: left;
+  width: 65%;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
 }
